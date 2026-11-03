@@ -19,6 +19,15 @@ Aplikasi CRUD pasien hewan berbasis Laravel 13 dan MySQL untuk memenuhi tugas UT
 - Validasi input dan pencegahan data duplikat
 - Status usia hewan (Muda/Dewasa)
 
+## Validasi Data
+
+- Kode pasien harus terdiri dari 10 karakter alfanumerik.
+- Nama hewan minimal 2 dan maksimal 100 karakter.
+- Nomor rekam minimal 5 dan maksimal 30 karakter.
+- Kode pasien dan nomor rekam tidak boleh duplikat.
+- Usia hewan harus berupa bilangan bulat 0 sampai 30.
+- Jenis hewan wajib dipilih dari data yang tersedia.
+
 ## Teknologi
 - Laravel 13
 - PHP 8.3
