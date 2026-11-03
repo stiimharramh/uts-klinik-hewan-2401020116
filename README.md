@@ -28,6 +28,14 @@ Aplikasi CRUD pasien hewan berbasis Laravel 13 dan MySQL untuk memenuhi tugas UT
 - Usia hewan harus berupa bilangan bulat 0 sampai 30.
 - Jenis hewan wajib dipilih dari data yang tersedia.
 
+## Konfigurasi Database
+
+Aplikasi menggunakan MySQL dengan database `klinik_hewan_2401020116`.
+
+Konfigurasi koneksi database dilakukan melalui file `.env`.
+
+File `.env` tidak disertakan dalam repository karena berisi konfigurasi lokal. Gunakan `.env.example` sebagai template konfigurasi.
+
 ## Teknologi
 - Laravel 13
 - PHP 8.3
